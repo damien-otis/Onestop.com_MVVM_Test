@@ -15,8 +15,7 @@ on each button or input element.
 
 -->
 
-<link href="index.css" type="css/stylehseet"/>
-
+<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body onload="start();stats('Onestop Test - load');">
@@ -43,9 +42,9 @@ on each button or input element.
 <script>
 function start(){
 	window.MVVM1 = new ViewModel({
-		model		: new Model(),
-		view		: $('#View1'),
-		className	: "skin1"
+		model	: new Model(),
+		view	: $('#View1'),
+		skin	: "skin1"
 	});
 }
 </script>
