@@ -1,7 +1,6 @@
 
 var ViewModel = function(config){
 
-
 	var ViewModel = function(){};
 
 	ViewModel.prototype = {
