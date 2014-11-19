@@ -1,0 +1,207 @@
+#View1 {
+	margin			: 5px;
+	border			: 1px solid black;
+	padding			: 20px;
+	border-radius	: 8px;
+}
+
+#output {
+	width			: 600px;
+	padding			: 20px;
+	font-family		: courier;
+}
+/*-----------------------------------*/
+
+.Shipments .Shipment {
+	position			: relative;
+	height				: 0px;
+	overflow			: hidden;
+	margin-top			: 15px;
+}
+
+.Shipments .ShipmentWeight {
+	float				: left;
+}
+
+.Shipments .ShipmentName {
+	float				: left;
+}
+
+.Shipments .ShipItems {
+	clear				: both;
+}
+
+.Shipments .RemoveShipment {
+	float				: right;
+}
+
+.Shipment {
+	overflow-x			: hidden!important;
+}
+
+/*------------------------------------*/
+
+.Shipments.skin1 .ShipmentInner {
+	padding				: 8px;
+}
+
+.Shipments.skin1 .ShipmentWeight {
+	margin				: 5px;
+}
+
+.Shipments.skin1 .ShipmentName {
+	background-color	: transparent;
+	color				: white;
+	margin				: 5px;
+}
+.Shipments.skin1 .ShipmentName:focus {
+	color				: black;
+}
+
+.Shipments.skin1 .ShipmentInner {
+	padding				: 8px;
+}
+
+.Shipments.skin1 * {
+	font-family			: arial;
+	font-size			: 18px;
+}
+
+.Shipments.skin1 {
+	background-color	: #caeaff;
+	padding				: 15px;
+	border-radius		: 5px;
+	font-family			: arial;
+	font-size			: 18px;
+}
+
+.Shipments.skin1 .Shipment{
+	margin				: 5px;
+	margin-top			: 15px;
+	background-color	: #556688;
+	border				: 1px solid #224488;
+	border-radius		: 8px;
+}
+
+.Shipments.skin1 .Item {
+	white-space			: nowrap;
+}
+
+.Shipments.skin1 .ShipmentWeight {
+	color				: #dadada;
+	padding				: 2px;
+	margin-top			: 8px;
+}
+
+.Shipments.skin1 input[type=button] {
+	background-color	: #c0d0e0;
+	border				: 1px solid #90a0c0;
+	padding				: 4px;
+	border-radius		: 6px;
+	font-size			: 14px;
+	font-weight			: 700;
+	cursor				: pointer;
+}
+
+.Shipments.skin1 input[type=button]:hover {
+	background-color	: #c8d8e8;
+	border-color		: #ffffff;
+	vertical-align		: middle;
+}
+
+.Shipments.skin1 input[type=text]{
+	background-color	: #f8f8f8;
+	border				: 1px solid #909090;
+	border-radius		: 3px;
+}
+
+.Shipments.skin1 .CreateShipment {
+	vertical-align		: middle;
+	margin-left			: 10px;
+}
+
+.Shipments.skin1 .CreateShipmentName {
+	padding				: 4px;
+}
+
+.Shipments.skin1 .ShipmentName {
+	border				: 0px;
+	border-radius		: 3px;
+	padding				: 5px;
+}
+
+.Shipments.skin1 .Item {
+	margin-left			: 20px;
+}
+
+.Shipments.skin1 .AddItem {
+	margin				: 10px;
+	margin-left			: 20px;
+}
+
+.Shipments.skin1 .ItemRemove {
+	margin-left			: 10px;
+}
+
+.Shipments.skin1 .RemoveShipment {
+	margin				: 10px;
+}
+
+.Shipments.skin1 .ItemName {
+	padding				: 4px;
+}
+.Shipments.skin1 .ItemWeight {
+	padding				: 4px;
+	width				: 120px;
+}
+
+.Shipments.skin1 .inputerror {
+	border				: 1px solid #ff0000!important;
+	background-color	: #ffe8e0!important;
+}
+
+
+
+/*-------aleternate styling------------*/
+
+.Shipments.skin2 .ShipmentInner {
+	padding				: 8px;
+}
+
+.Shipments.skin2 .ShipmentWeight {
+	margin				: 5px;
+}
+
+.Shipments.skin2 .ShipmentName {
+	background-color	: transparent;
+}
+
+.Shipments.skin2 .ShipmentInner {
+	padding				: 8px;
+}
+
+.Shipments.skin2 * {
+	font-family			: arial;
+	font-size			: 14px;
+}
+
+.Shipments.skin2 {
+	background-color	: #eaeaea;
+	padding				: 5px;
+	border-radius		: 5px;
+	font-family			: arial;
+	font-size			: 14px;
+}
+
+.Shipments.skin2 .Shipment{
+	margin				: 5px;
+	background-color	: #dadada;
+	border				: 1px solid #4a5a5a;
+	border-radius		: 8px;
+}
+
+.Shipments.skin2 .inputerror {
+	border				: 1px solid #ff0000!important;
+	background-color	: #ffe8e0!important;
+}
+
